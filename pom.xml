@@ -14,10 +14,9 @@
     </modules>
 
     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <junit.version>5.8.1</junit.version>
-
-            <java.version>17</java.version>
-
     </properties>
 
     <dependencyManagement>
@@ -34,8 +33,9 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+
             </plugin>
         </plugins>
     </build>
