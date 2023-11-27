@@ -15,7 +15,11 @@
 
     <properties>
         <junit.version>5.8.1</junit.version>
+
+            <java.version>11</java.version>
+
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
