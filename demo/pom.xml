@@ -15,12 +15,6 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.epam.utils</groupId>
-            <artifactId>utils</artifactId>
-            <version>1.3.5</version> <!-- Make sure to match the version -->
-        </dependency>
-
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <scope>test</scope>
@@ -29,7 +23,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
+            <version>3.10</version>
         </dependency>
     </dependencies>
 
